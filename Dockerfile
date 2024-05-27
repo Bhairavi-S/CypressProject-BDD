@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
+# Install Cypress binary
+RUN npx cypress install --version 13.9.0
+
 # Copy the rest of the application code
 COPY . .
 

@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as the base image
-FROM cypress/base:12
+FROM cypress/base
 
 # Set the working directory in the container
 WORKDIR /app
